@@ -1,0 +1,93 @@
+// OBJECTIVES: 
+// 1. Evaluate JS using the chrome console
+// 2. The 5 primitive data types
+// 3. Define variables with the "var" keyword 
+// 4. Using 3 inbuilt JS Method (console.log, alert, prompt)
+
+
+/**
+ * 1. Evaluate JS using the chrome console
+ * The console is used to check things out or interact with
+ *  the browser before implementing it in the Javascript file 
+*/
+
+/**
+ * 2. The 5 primitive (low-level) data types
+ * - Introduction of the 5 Primitive data types
+ * - Working with numbers and numeric operators 
+ * - Working with strings and common string methods  
+*/
+
+/*NUMBERS*/
+// NUMBERS - JS does not diffrentiate the numbers into floats, int, etc
+// They are just basically numbers
+4
+9.3
+-10
+
+// You can do basic maths operators like +, -, *, /, %.
+// It uses the BODMAS METHOD (All program does when it comes to math operations)
+
+/*STRINGS*/
+// STRING - They are text they must be inside of double Quote ("") or ('')
+
+"Hello World" // This is 1 string
+"43" // This is another string. NOTE: It is not a number 
+
+// Single quotes or double quotes are okay
+"Hello world" //prints Hello world
+'Hello world' //prints Hello world
+"I can't stop eating candy" // This is valid  but this is 
+// not valid 'I can't stop eating candy'
+
+// Concatenation - joinig of strings together 
+"Seyi" + "Odediran"  //prints SeyiOdediran
+
+// Escape character - they are use to add quotes into a string
+// Using a backslash "\" 
+// SYNTAX==> "\"YOUR TEXT IN QUOTES GOES HERE!\" "
+"Singing \"Do wah diddy, dum diddy do\" " 
+// prints out Singing "Do wah diddy, dum diddy do"
+"To see a backslash: \\"
+
+// Lenght property - To count the number of letters in a string. It includes space also
+// SYNTAX ==> String.length
+
+console.log("Hello world".length)  // gives 11
+
+// Index property - Gives out the character corresponding to index [num]
+// NOTE: Counting starts at "0". It includes space also
+// SYNTAX ==> String[0]
+"hello"[0] // prints out "h"
+"hello"[3] // prints out "l"
+
+
+/*BOOLEANS*/
+// BOOLEANS - either TRUE or FALSE
+
+// NULL AND UNDEFINED - They are values, There is only one null and 
+// one undefined 
+
+
+/**
+ * 3. Define variables with the "var" keyword
+ * VARIBLES are containers 
+ * SYNTAX => var variableName = yourValue;
+ * you can store all the data types in a variable
+ * dynamic typing - they can change to any data types
+*/
+
+
+/**
+ * 4. Using 3 inbuilt JS Method (console.log, alert, prompt)
+ * clear() - clears console 
+ * They 
+*/
+
+// alert() -- pops up message to the user . It can take maths operations also
+// console.log() -- prints out to the console
+// prompt() -- recives from the user 
+
+var userName = prompt("Please enter your name:");
+alert("Welcome, " + userName);
+console.log("Happy to meet you " + userName);

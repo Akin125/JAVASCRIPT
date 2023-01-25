@@ -1,0 +1,30 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+
+
+div.contents{
+	width: 500px;
+	height: 1000px;
+	border-radius: 35px;
+	background-color: grey;
+	position: relative;
+	left: 30%;
+	margin-top: 100px;
+	display: inline-block;
+	background-color: burlywood;
+}
+
+div p{
+	position: relative;
+	left: 250px;
+}
+
+h1{
+	position: absolute;
+	left:  50%;	
+	z-index: 2;
+}
+

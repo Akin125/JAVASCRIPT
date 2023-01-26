@@ -2,7 +2,7 @@
 // 1. Evaluate JS using the chrome console
 // 2. The 5 primitive data types
 // 3. Define variables with the "var" keyword 
-// 4. Using 3 inbuilt JS Method (console.log, alert, prompt)
+// 4. Using 3 inbuilt JS Method (console.log, alert, prompt, var.lenght)
 
 
 /**

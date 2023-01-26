@@ -1,0 +1,49 @@
+// 1. Control flows - if(conditional statements), else...if, else
+// 2. Logic operators (BOOLEANS)
+// 3. Loops - for, while
+// 4. Translating from a 'for' loop to a 'While' loop
+
+
+BOOLEANS LOGIC
+Two possibe output - TRUE or FALSE
+
+Comprison operators
+
+Equality operators 
+== vs ===
+TYPE COERCION comes into play
+
+Type Coercion -- refers to the process of automatic or
+implicit conversion of values from one data type to another. 
+This includes conversion from Number to String, String to 
+Number, Boolean to Number etc
+
+== converts to thesame type before comparing (Type Coercion)
+=== compares directly (no type Coercion)
+
+Logical operators --majorly three(AND, OR, and NOT)
+
+AND -- &&  both must be TRUE
+
+OR -- || one must TRUE 
+
+NOT -- ! it changes FALSE to TRUE and vice visa
+
+Assuming x=5 and y=9
+
+AND
+x < 10 && x !== 5 -------FALSE
+
+OR
+y > 9 || x === 5 --------TRUE
+
+NOT
+!(x === y) ---------------TRUE
+
+
+
+JS CONDITIONALS - adds logic to program
+- if
+- Else if
+- Else
+

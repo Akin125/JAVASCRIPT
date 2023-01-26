@@ -3,8 +3,8 @@
 // Return to the user 
 // NOTE: this code is  running  consedering the leap year 
 
-//const prompt=require("prompt-sync")({sigint:true});
 
+// const prompt=require("prompt-sync")({sigint:true});
 
 function ageToYears (a){
     let userAge = a;

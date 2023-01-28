@@ -47,3 +47,15 @@ JS CONDITIONALS - adds logic to program
 - Else if
 - Else
 
+LOOPS 
+- understanding Loops (helps with iteration)
+- Defining a DRY code -- Don`t repeat yorself (DRY)
+- write simple Loops
+
+TYPES OF LOOPS
+
+WHILE LOOPS
+
+while(condition){
+    block code
+}

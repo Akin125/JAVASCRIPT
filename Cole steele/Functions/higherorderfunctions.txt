@@ -1,0 +1,10 @@
+Syntax 
+setInterval(anotherFunction, Interval in ms)
+
+or
+
+setInterval(function(){
+    code
+}, interval in ms) note the function inside will not be assecible 
+
+

@@ -17,24 +17,48 @@
 
 
 
-//const prompt=require("prompt-sync")({sigint:true}); //DO NOT TOUCH
+// const prompt=require("prompt-sync")({sigint:true}); //DO NOT TOUCH
 
 var myTodo = [];
 
-var userInput = prompt("What will you like TODO? (\"New\" - Add a todo), (\"List\" - View all todos), (\"Quit\" - Quit App)  ");
+var userInput = prompt("What will you like TODO? (\"New\" - Add a todo), (\"List\" - View all todos), (\"Quit\" - Quit App)  (\"Delete\" - Remove todos) ");
 
 while(userInput !== "Quit"){
 
     if(userInput === "New"){
-        var newTask = prompt("Add what you would like to do:  ");
-        console.log(myTodo.push(newTask)); 
+         addTask();
     }
 
     else if(userInput === "List"){
-        console.log(myTodo);
+        listTask();
+    }
+
+    else if(userInput === "Delete"){
+        deleteTask();
     }
 
  var userInput = prompt("What will you like TODO? (\"New\" - Add a todo), (\"List\" - View all todos), (\"Quit\" - Quit App)  ");
 }
 console.log("Quiting App.....");
 console.log("App quitted Successfully");
+
+
+//Functions
+
+function addTask(){
+    var newTask = prompt("Add what you would like to do:  ");
+    console.log(myTodo.push(newTask)); 
+    console.log("Todo was added successfully");
+}
+
+function listTask(){
+    myTodo.forEach(function(list, i){
+        console.log(i + ": " + list);
+       });
+}
+
+function deleteTask(){
+    var index = prompt("Which index do you wanna delete?  ");    
+        myTodo.splice(index, 1);
+        console.log("Todo was deleted successfully");
+}

@@ -32,3 +32,19 @@ numbers.forEach(function(three){
         console.log(three); // 3, 6 , 9
     }
 });
+
+
+// var numRev = [1,2,3,4,5,6,7,8,9,10].reverse();
+// console.log(numRev);
+
+console.log();
+var numRev = [1,2,3,4,5,6,7,8,9,10];
+
+function printReverse(arr){
+    for(var i = arr.length - 1; i >=0; i--){
+        console.log(arr[i]);
+    }
+
+}
+
+printReverse(numRev);

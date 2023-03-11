@@ -1,0 +1,23 @@
+Syntax
+var courses = ['PHY105', 'CHM101', 'ZOO101', 'BOT101', 'SSC101'];
+
+console.log(courses[1]); prints out CHM101
+
+
+
+
+
+
+
+ARRAYS IN BUILT METHODS
+-push/pop
+-shift/unshift
+-indexOf 
+-slice
+
+-POP: The pop() method removes the last element from an array and returns that element. This method changes the length of the array.
+-PUSH: The push() method adds one or more elements to the end of an array and returns the new length of the array.
+-SHIFT: The shift() method removes the first element from an array and returns that removed element. This method changes the length of the array.
+-UNSHIFT: The unshift() method adds one or more elements to the beginning of an array and returns the new length of the array.
+-INDEXOF: The indexOf() method returns the first index at which a given element can be found in the array, or -1 if it is not present.
+-SLICE: The slice() method returns a shallow copy of a portion of an array into a new array object selected from start to end (end not included) where start and end represent the index of items in that array. The original array will not be modified.

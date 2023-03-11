@@ -1,0 +1,8 @@
+var yourVariable = 
+[
+    property: 'value',
+    property: num or any other type of data type
+]
+
+
+this key word NOTE IT 

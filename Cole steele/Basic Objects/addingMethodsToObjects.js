@@ -2,7 +2,7 @@
 
 // lets say i have an object man
 
-var man = {
+let man = {
     name: 'Peter',
     class: '200 level',
     isCool: false,
@@ -16,9 +16,9 @@ var man = {
 console.log(man.name); // "Peter"
 console.log(man.add(2,3));
 
-// it also enables us to use a single function name for diffrent objects
-var speakCats = {};
-var speakDog = {};
+// it also enables us to use a single function name for different objects
+let speakCats = {};
+let speakDog = {};
 
 speakCats.speak = function sound(){
     return 'Meow!';
@@ -30,3 +30,5 @@ speakDog.speak = function sound(){
 }
 
 console.log(speakDog.speak());
+
+console.log(speakDog.speak(), speakCats.speak());

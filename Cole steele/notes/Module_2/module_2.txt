@@ -59,3 +59,12 @@ WHILE LOOPS
 while(condition){
     block code
 }
+
+FOR LOOPS
+- understanding FOR loops
+- Writing a valid FOR loops
+- While vs for loops 
+
+for(initialize; condition; controller){
+    block code
+}

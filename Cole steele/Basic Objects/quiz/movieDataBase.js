@@ -1,6 +1,7 @@
-// create an array of movie objects. Each movie shuld have a title, rating, and hasWatched properties. Iterate through the array and print out something that looks like: You have watched 'in bruges' - 5 stars, you hav not seen 'frozen' - 4.5 stars
+// create an array of movie objects. Each movie shuld have a title, rating, and hasWatched properties. Iterate through
+// the array and print out something that looks like: You have watched 'in bruges' - 5 stars, you hav not seen 'frozen' - 4.5 stars
 
-var movies =[
+let movies =[
     {
         title: 'Black-Panther',
         rating: 5,
@@ -27,7 +28,7 @@ var movies =[
 ];
 
 movies.forEach(function(movie){
-    var result = 'You have ';
+    let result = 'You have ';
     if (movie.hasWatched){
         result += 'watched ';
     }else{
